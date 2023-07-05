@@ -71,9 +71,3 @@ sourceSets {
 clean.doLast {
     file(querydslDir).deleteDir()
 }
-
-java {
-    toolchain {
-        languageVersion.set(JavaLanguageVersion.of(11))
-    }
-}
